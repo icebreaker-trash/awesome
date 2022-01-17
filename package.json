@@ -1,0 +1,43 @@
+{
+  "name": "awesome",
+  "version": "1.0.0",
+  "description": "总结展示一下自己写的项目和自己收集的项目",
+  "main": "scripts/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonofmagic/awesome.git"
+  },
+  "author": "SonOfMagic <1324318532@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sonofmagic/awesome/issues"
+  },
+  "homepage": "https://github.com/sonofmagic/awesome#readme",
+  "devDependencies": {
+    "eslint": "7.12.1",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-promise": "4.2.1"
+  },
+  "dependencies": {
+    "hast-util-to-mdast": "^8.3.0",
+    "markdown-table": "^3.0.2",
+    "mdast-util-to-hast": "^12.1.0",
+    "mdast-util-to-markdown": "^1.2.6",
+    "rehype": "^12.0.0",
+    "rehype-document": "^6.0.1",
+    "rehype-format": "^4.0.1",
+    "rehype-parse": "^8.0.3",
+    "rehype-stringify": "^9.0.2",
+    "remark-parse": "^10.0.1",
+    "remark-rehype": "^10.1.0",
+    "to-vfile": "^7.2.3",
+    "unified": "^10.1.1",
+    "vfile-reporter": "^7.0.3"
+  }
+}
